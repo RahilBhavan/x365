@@ -76,6 +76,8 @@ Use the 18-hour weekly budget this way:
 
 During active recruiting, add applications to the career block or replace one hour of reading. Do not remove project testing.
 
+The [research and source-code curriculum](READING_AND_SOURCE_CODE_PLAN.md) assigns about three hours of the lesson block to primary documentation, targeted repository study, and papers. Every source assignment must change a test, diagram, decision, explanation, or implementation.
+
 ## Project release standard
 
 A flagship release requires:

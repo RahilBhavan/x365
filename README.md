@@ -25,10 +25,11 @@ The goal is not to become a senior protocol engineer in one year. The goal is to
 2. Complete the [Day 0 setup](course/README.md).
 3. Begin [Week 1](course/week-01/README.md).
 4. Follow the [52-week syllabus](docs/SYLLABUS.md).
-5. Use the [weekly tracker](TRACKER.md) to record work and proof.
-6. Read the [project specifications](docs/PROJECTS.md) before each project phase.
-7. Run the [internship system](docs/INTERNSHIP.md) throughout the year.
-8. Use the [X playbook](docs/X_PLAYBOOK.md) to publish useful evidence.
+5. Complete the week's assigned sources in the [research and source-code curriculum](docs/READING_AND_SOURCE_CODE_PLAN.md).
+6. Use the [weekly tracker](TRACKER.md) to record work and proof.
+7. Read the [project specifications](docs/PROJECTS.md) before each project phase.
+8. Run the [internship system](docs/INTERNSHIP.md) throughout the year.
+9. Use the [X playbook](docs/X_PLAYBOOK.md) to publish useful evidence.
 
 The [glossary](CONTEXT.md) defines the financial terms used across the course. The [research basis](docs/RESEARCH.md) links the standards, official documents, and hiring signals behind the plan.
 

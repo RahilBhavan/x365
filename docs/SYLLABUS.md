@@ -4,6 +4,8 @@ This syllabus starts with no assumed programming knowledge. Each week takes 18 h
 
 Use the seven-day loop in [Course strategy](STRATEGY.md). Complete 52 weeks for Days 1 through 364. Use Day 365 for the final launch and assessment.
 
+Use the [research and source-code curriculum](READING_AND_SOURCE_CODE_PLAN.md) for the exact documentation, GitHub repository, paper, and institutional-report assignment for every week. Each reading must produce a test, diagram, decision, or source note. Reading without an artifact does not complete the week.
+
 ## Phase 1: Learn to program (Weeks 1 through 6)
 
 ### Week 1: Computers, the terminal, and the first program

@@ -10,6 +10,7 @@ By Sunday, your repository must contain:
 
 - `work/week-01/fund-share.ts`;
 - `work/week-01/notes.md`;
+- a completed Week 1 source note using the [research curriculum template](../../docs/READING_AND_SOURCE_CODE_PLAN.md#the-source-note-format);
 - at least three meaningful Git commits;
 - a one-page tokenization map;
 - one public Day 1 post and one weekly build post;
@@ -85,7 +86,7 @@ Rewrite the bracketed sentence yourself. Attach the map.
 
 ## Day 2: Use the terminal
 
-Learn these commands by running them, not by memorizing a list:
+Read the Node.js introduction to [running command-line programs](https://nodejs.org/en/learn/command-line/run-nodejs-scripts-from-the-command-line). Then learn these commands by running them, not by memorizing a list:
 
 ```sh
 pwd
@@ -102,6 +103,8 @@ Before each command, predict what it will do. After each command, compare the re
 Write definitions for current directory, parent directory, relative path, absolute path, file, and folder in `notes.md`.
 
 ## Day 3: Write the first program
+
+Read the [TypeScript Handbook introduction](https://www.typescriptlang.org/docs/handbook/intro.html) and the opening sections of [Everyday Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html). Stop when the examples no longer connect to the program below; later weeks will return to the rest.
 
 Open `work/week-01/fund-share.ts`. Type this program yourself:
 
@@ -148,6 +151,8 @@ Finish with a working file. Do not commit intentionally broken code to `main`.
 
 ## Day 5: Save work with Git
 
+Read the short opening sections of [Pro Git chapter 1](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and [chapter 2](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). You only need the vocabulary used by the commands below.
+
 Run:
 
 ```sh
@@ -190,7 +195,8 @@ Complete these tasks:
 4. Change one input and predict the output before running it.
 5. Check `git status` and commit the final notes.
 6. Complete the weekly review in `TRACKER.md`.
-7. Publish a short build post with the program output and one error you learned to fix.
+7. Finish the Week 1 source note. Link it in the tracker and name the program, explanation, or diagram it changed.
+8. Publish a short build post with the program output and one error you learned to fix.
 
 Answer the [Week 1 checkpoint](checkpoint.md) without notes. Then check your work.
 
@@ -201,4 +207,5 @@ Answer the [Week 1 checkpoint](checkpoint.md) without notes. Then check your wor
 - [ ] The total value is calculated, not hard-coded.
 - [ ] `git status` shows no accidental files or secrets.
 - [ ] The map and notes exist.
+- [ ] The Week 1 source note names the evidence produced from the reading.
 - [ ] The tracker contains evidence links or local paths.

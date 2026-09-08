@@ -1,5 +1,7 @@
 # Primary-source learning path
 
+This is the quick reference. The [research and source-code curriculum](READING_AND_SOURCE_CODE_PLAN.md) assigns exact sources, repository studies, papers, and deliverables to all 52 weeks. Follow that schedule instead of trying to consume this page at once.
+
 Use primary specifications and maintained documentation as the spine. Courses and videos can help unblock a concept, but they should not replace reading the interface, security notes, and source code you are implementing.
 
 ## Weeks 1 through 16: programming and full-stack development

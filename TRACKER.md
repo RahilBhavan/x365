@@ -19,6 +19,10 @@ Copy the weekly section for each sprint. Link evidence. Keep career contacts and
 - One shippable outcome: A TypeScript program, tokenization map, notes, and weekly build post
 - Why it matters: This establishes the programming and domain vocabulary that every later project uses.
 - Required acceptance checks: Use the checklist in `course/week-01/README.md`.
+- Required source assignment: Week 1 in `docs/READING_AND_SOURCE_CODE_PLAN.md`
+- Source note link:
+- Repository tag or commit studied, if assigned:
+- Test, diagram, or decision produced from the research:
 - Optional scope to cut first: Visual branding and extra reading
 - Saturday demo time:
 - Sunday review time:
