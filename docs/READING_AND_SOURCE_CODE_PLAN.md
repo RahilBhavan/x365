@@ -417,7 +417,7 @@ Before an internship interview, refresh the SEC, BIS, Federal Reserve, and IMF i
 [^20]: U.S. Department of the Treasury, [About Treasury Marketable Securities](https://www.treasurydirect.gov/marketable-securities/) and [Treasury Bills](https://www.treasurydirect.gov/marketable-securities/treasury-bills/).
 [^21]: U.S. Securities and Exchange Commission, [Transfer Agents](https://www.sec.gov/about/divisions-offices/division-trading-markets/transfer-agents).
 [^22]: Ethereum standards contributors, [EIP-712: Typed Structured Data Hashing and Signing](https://eips.ethereum.org/EIPS/eip-712).
-[^23]: SEC staff, [Statement on Tokenized Securities](https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities), January 28, 2026.
+[^23]: Staff of the SEC Divisions of Corporation Finance, Investment Management, and Trading and Markets, [Statement on Tokenized Securities](https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities), January 28, 2026.
 [^24]: Bank for International Settlements, [The Tokenisation Continuum](https://www.bis.org/publ/bisbull72.pdf), BIS Bulletin No. 72, April 2023.
 [^25]: Carapella et al., Federal Reserve Board, [Tokenization: Overview and Financial Stability Implications](https://www.federalreserve.gov/econres/feds/tokenization-overview-and-financial-stability-implications.htm), Finance and Economics Discussion Series 2023-060, revised December 2023.
 [^26]: International Monetary Fund, [Tokenization and Financial Market Inefficiencies](https://www.imf.org/en/publications/fintech-notes/issues/2025/01/29/tokenization-and-financial-market-inefficiencies-561256), Fintech Note 2025/001.
