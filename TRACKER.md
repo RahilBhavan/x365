@@ -4,12 +4,14 @@ Copy the weekly section for each sprint. Link evidence. Keep career contacts and
 
 ## Current status
 
-- Current day: 0/365
-- Current week: 0/52
-- Current phase: Day 0 setup
-- Current project: Week 1 preparation
-- Start date: YYYY-MM-DD
-- Planned Day 365: YYYY-MM-DD
+Day number = days since 2026-09-09, counting that day as Day 1. Update the fields below and the daily row at the end of each working day.
+
+- Current day: 1/365
+- Current week: 1/52
+- Current phase: Week 1, Day 1 (understand the project)
+- Current project: Week 1, first TypeScript program (`course/week-01/README.md`)
+- Start date: 2026-09-09 (Wednesday)
+- Planned Day 365: 2027-09-08
 - Internship target: Summer 2027 reach target; Summer 2028 full-portfolio target; US citizen
 - Weekly hour budget: 18
 
@@ -24,20 +26,20 @@ Copy the weekly section for each sprint. Link evidence. Keep career contacts and
 - Repository tag or commit studied, if assigned:
 - Test, diagram, or decision produced from the research:
 - Optional scope to cut first: Visual branding and extra reading
-- Saturday demo time:
-- Sunday review time:
+- Saturday demo time: Day 6, Monday 2026-09-14
+- Sunday review time: Day 7, Tuesday 2026-09-15
 
 ## Daily evidence
 
 | Day | Planned work | Actual work | Evidence link | X link | Minutes | Blocker/lesson |
 | ---: | --- | --- | --- | --- | ---: | --- |
-| 1 | Lesson and notes | | | | | |
-| 2 | Guided exercise | | | | | |
-| 3 | Independent exercise | | | | | |
-| 4 | Test and debug | | | | | |
-| 5 | Review and explain | | | | | |
-| 6 | Deep build and release | | | | | |
-| 7 | Review and career work | | | | | |
+| 1 (Wed 09-09) | Lesson and notes | | | | | |
+| 2 (Thu 09-10) | Guided exercise | | | | | |
+| 3 (Fri 09-11) | Independent exercise | | | | | |
+| 4 (Sat 09-12) | Test and debug | | | | | |
+| 5 (Sun 09-13) | Review and explain | | | | | |
+| 6 (Mon 09-14) | Deep build and release | | | | | |
+| 7 (Tue 09-15) | Review and career work | | | | | |
 
 ## Verification record
 
