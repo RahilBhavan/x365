@@ -24,26 +24,26 @@ graph TD
   GD[Governing Document]
   CHAIN[(blockchain record)]
 
-  %% Draw your edges here. The syntax is:  A -->|label| B
-  %% Example of the shape, not an answer:  ISS -->|creates| TF
+  ISS -->|creates and manages| TF
+  ISS -->|writes| GD
+  GD -->|defines the rights of| FS
+  TF -->|is divided into| FS
+  INV -->|holds a claim called| FS
+  FS -->|is represented onchain by| ST
+  ST -->|balance and transfers written to| CHAIN
+  TA -->|keeps the official ownership record of| FS
+  TA -->|writes and can correct| ST
+  CUST -->|holds the Treasury bills for| TF
+  CASH -->|records the dollar leg of subscriptions and redemptions for| INV
+  INV -->|sends cash and receives shares through| TA
 ```
 
-## Edges I still owe
+## What the map says
 
-- [ ] Issuer to Treasury Fund
-- [ ] Issuer to Governing Document
-- [ ] Governing Document to Fund Share
-- [ ] Treasury Fund to Fund Share
-- [ ] Investor to Fund Share
-- [ ] Fund Share to Share Token
-- [ ] Share Token to blockchain record
-- [ ] Transfer Agent to Fund Share
-- [ ] Custodian to Treasury Fund
-- [ ] Cash Provider to Investor
-
-## Check before you call it done
-
-- [ ] A stranger can follow the arrows without me talking.
-- [ ] No arrow implies the token IS a Treasury security.
-- [ ] Every offchain box is visibly offchain.
-- [ ] I can point at the box that is the Authoritative Record.
+- The Share Token points at the Fund Share, not at the Treasury Fund. The
+  token records the claim; it is not the bills.
+- Two records touch the Fund Share: the Transfer Agent's file and the
+  chain. The Transfer Agent is the Authoritative Record in this model, which
+  is why it can correct the token.
+- Custodian and Cash Provider sit entirely offchain. Nothing on the chain
+  can confirm what they report.

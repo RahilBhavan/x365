@@ -10,27 +10,85 @@ answer key.
 
 Sources read (add the URL and how long you spent on each):
 
--
--
--
+- https://ethereum.org/developers/docs/standards/tokens/ and the ERC-20 page, 15 min
+- https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities (intro and taxonomy), 10 min
+- `CONTEXT.md` glossary plus `study/03-treasury-fund-mechanics.md`, 20 min
 
 ### 1. What is the underlying asset?
 
+Short-term loans to the US government: Treasury bills. You buy one for less
+than its face value and get the face value back in a few weeks or months.
+The gap is the interest. The Treasury Fund holds a pile of these with
+different maturity dates, and as each one pays out the manager buys another.
+That rolling pile of bills, plus some cash, is the real asset. Everything
+else in the model is a claim on it or a record of a claim on it.
+
 ### 2. What does the Investor own in the fictional model?
+
+A Fund Share: a proportional claim on the Treasury Fund's assets minus its
+liabilities. If the fund holds $1,000,000 of bills and there are 10,000
+shares, one share is a claim on $100 worth. The Investor does not own any
+particular bill, and does not own "the token". The Investor owns the claim
+that the Governing Document defines, and the Transfer Agent's record is what
+says who holds it.
 
 ### 3. What does the Share Token record?
 
+A number next to an address on a chain: this address holds N Share Tokens.
+It also records that the number changed, with a timestamp. That is all an
+ERC-20 balance is. It does not say who controls the address, why the number
+changed, whether the bills still exist, or what rights the holder has. It
+is a representation of the Fund Share, the way a receipt represents a
+purchase.
+
 ### 4. Which facts remain offchain?
 
+- Whether the Custodian actually holds the bills. The chain cannot check a
+  bank vault.
+- The Net Asset Value. Someone offchain prices the bills and subtracts
+  liabilities at a stated time.
+- What the Governing Document says. Onchain there is only a hash; the rights
+  live in the file.
+- Whether cash moved. A Subscription or Redemption has a dollar leg that runs
+  on bank rails the chain never sees.
+- Who the Investor is and whether they are allowed to hold shares. An
+  address is a key, not a person.
+- Which record wins in a dispute. That is a decision the Issuer writes down,
+  not something a contract can settle.
+
 ### 5. What could go wrong if two records disagree?
+
+Say an Investor's key is stolen and the tokens move to a thief's address.
+The chain now says the thief holds 100 tokens. The Transfer Agent still
+lists the original Investor. If nobody has named the Authoritative Record
+in advance, two people both believe they are owed the next dividend and
+the Redemption proceeds, and whoever has more leverage wins the argument
+after the fact. If the Transfer Agent record is named as controlling, the
+thief holds a number with no claim behind it and the Investor gets their
+record repaired. The reverse failure is just as bad: if the chain is named
+as controlling, then a bug or a stolen key becomes a real transfer of
+ownership. Either way, silent disagreement means the fund pays the wrong
+party or pays twice. Reconciliation exists to catch that before money moves.
 
 ### The sentence I have to be able to say out loud
 
 Why a token is not automatically the underlying asset:
 
+The token is a record that says "this address holds N shares." The shares
+are a claim defined in a document, and the asset behind that claim is a
+pile of Treasury bills sitting with a Custodian. Copying the record onto a
+blockchain changes where the record lives, not what it is a record of. The
+SEC staff said the same thing in plain terms: putting a security in token
+form does not change the security.
+
 ### What surprised me
 
 (One sentence. This is also the bracketed line in the Day 1 post.)
+
+What surprised me is that ERC-20 has no idea what a share is: a theft, a
+redemption, and a legitimate purchase all produce the identical Transfer
+event, so everything that makes it a fund share has to live somewhere the
+chain cannot see.
 
 ---
 

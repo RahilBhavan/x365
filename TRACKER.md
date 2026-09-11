@@ -6,9 +6,9 @@ Copy the weekly section for each sprint. Link evidence. Keep career contacts and
 
 Day number = days since 2026-09-09, counting that day as Day 1. Update the fields below and the daily row at the end of each working day.
 
-- Current day: 1/365
+- Current day: 2/365
 - Current week: 1/52
-- Current phase: Week 1, Day 1 (understand the project)
+- Current phase: Week 1, Day 2 (use the terminal)
 - Current project: Week 1, first TypeScript program (`course/week-01/README.md`)
 - Start date: 2026-09-09 (Wednesday)
 - Planned Day 365: 2027-09-08
@@ -33,7 +33,7 @@ Day number = days since 2026-09-09, counting that day as Day 1. Update the field
 
 | Day | Planned work | Actual work | Evidence link | X link | Minutes | Blocker/lesson |
 | ---: | --- | --- | --- | --- | ---: | --- |
-| 1 (Wed 09-09) | Lesson and notes | | | | | |
+| 1 (Wed 09-09) | Lesson and notes | Read the three sources, drew the map, answered the five questions | `work/week-01/map.md`, `work/week-01/notes.md` | | 45 | ERC-20 cannot tell a theft from a redemption; everything that makes it a share lives offchain |
 | 2 (Thu 09-10) | Guided exercise | | | | | |
 | 3 (Fri 09-11) | Independent exercise | | | | | |
 | 4 (Sat 09-12) | Test and debug | | | | | |
