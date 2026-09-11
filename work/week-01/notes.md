@@ -98,21 +98,36 @@ Predict before you run each command, then compare.
 
 | Command | What I predicted | What happened |
 | --- | --- | --- |
-| `pwd` | | |
-| `ls` | | |
-| `mkdir -p work/week-01` | | |
-| `cd work/week-01` | | |
-| `touch fund-share.ts` | | |
-| `cd ../..` | | |
+| `pwd` | Prints the folder I am in as a full path from `/` | `/Users/rbhavan/projects/Tokenization` |
+| `ls` | Lists what is in that folder | `CONTEXT.md course docs README.md TRACKER.md work` |
+| `mkdir -p work/week-01` | Nothing visible: the folder already exists and `-p` means "do not complain if it does" | No output, no error, folder unchanged |
+| `cd work/week-01` | Moves me two levels down; `pwd` would now end in `week-01` | No output. `pwd` printed `/Users/rbhavan/projects/Tokenization/work/week-01` |
+| `touch fund-share.ts` | Creates an empty file with that name in the current folder | No output. `ls` now shows `fund-share.ts` next to `map.md`, `notes.md`, `study`; it is 0 bytes |
+| `cd ../..` | Each `..` goes up one folder, so two of them put me back at the repo root | No output. `pwd` printed `/Users/rbhavan/projects/Tokenization` again |
+
+Two things I did not predict: commands that succeed at changing something
+(`mkdir`, `cd`, `touch`) print nothing at all, so silence means success. And
+`touch` on a file that already exists does not empty it; it only updates the
+modified time.
 
 Definitions in my own words:
 
-- current directory:
-- parent directory:
-- relative path:
-- absolute path:
-- file:
-- folder:
+- current directory: the folder the terminal is "standing in" right now.
+  Every command that takes a path starts looking from here unless the path
+  begins with `/`. `pwd` prints it.
+- parent directory: the folder one level up, the one that contains the
+  current directory. Spelled `..` in a path.
+- relative path: directions from where I am standing, like `work/week-01`
+  or `../..`. The same relative path points at different places depending
+  on the current directory.
+- absolute path: directions from the root of the disk, always starting with
+  `/`, like `/Users/rbhavan/projects/Tokenization`. It means the same thing
+  no matter where I am standing.
+- file: a named thing that holds content (text, code, an image). `fund-share.ts`
+  is a file, currently empty.
+- folder: a named container for files and other folders. Also called a
+  directory; the terminal uses that word. `work` is a folder that contains
+  the folder `week-01`.
 
 ---
 
