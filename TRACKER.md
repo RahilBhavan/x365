@@ -6,9 +6,9 @@ Copy the weekly section for each sprint. Link evidence. Keep career contacts and
 
 Day number = days since 2026-09-09, counting that day as Day 1. Update the fields below and the daily row at the end of each working day.
 
-- Current day: 2/365
+- Current day: 5/365
 - Current week: 1/52
-- Current phase: Week 1, Day 2 (use the terminal)
+- Current phase: Week 1, Day 5 (save work with Git)
 - Current project: Week 1, first TypeScript program (`course/week-01/README.md`)
 - Start date: 2026-09-09 (Wednesday)
 - Planned Day 365: 2027-09-08
@@ -35,9 +35,9 @@ Day number = days since 2026-09-09, counting that day as Day 1. Update the field
 | ---: | --- | --- | --- | --- | ---: | --- |
 | 1 (Wed 09-09) | Lesson and notes | Read the three sources, drew the map, answered the five questions | `work/week-01/map.md`, `work/week-01/notes.md` | | 45 | ERC-20 cannot tell a theft from a redemption; everything that makes it a share lives offchain |
 | 2 (Thu 09-10) | Guided exercise | Ran the six terminal commands with predictions, wrote path definitions, created empty `fund-share.ts` | `work/week-01/notes.md` (Day 2 section) | | 30 | Silence from `mkdir`/`cd`/`touch` means success, not that nothing happened |
-| 3 (Fri 09-11) | Independent exercise | | | | | |
-| 4 (Sat 09-12) | Test and debug | | | | | |
-| 5 (Sun 09-13) | Review and explain | | | | | |
+| 3 (Fri 09-11) | Independent exercise | Done Sun 09-13. Typed the four-variable program, ran it, changed `sharePrice` with a prediction, wrote purpose comments | `work/week-01/fund-share.ts`, `work/week-01/notes.md` (Day 3) | | 30 | `node` runs `.ts` directly by stripping types; missed Fri and Sat |
+| 4 (Sat 09-12) | Test and debug | Done Sun 09-13. Made the four errors in a scratch copy, recorded and explained each message | `work/week-01/notes.md` (Day 4) | | 30 | A string in a `number` variable runs fine under `node`; only `tsc --noEmit` catches it |
+| 5 (Sun 09-13) | Review and explain | Ran the six git commands, read each output, defined untracked/staged/commit | commit `2ea3598`, `work/week-01/notes.md` (Day 5) | | 20 | `git add` moves a diff from `git diff` to `git diff --staged`; it does not save or push |
 | 6 (Mon 09-14) | Deep build and release | | | | | |
 | 7 (Tue 09-15) | Review and career work | | | | | |
 
@@ -48,7 +48,7 @@ Day number = days since 2026-09-09, counting that day as Day 1. Update the field
 | Unit tests | | | |
 | Integration tests | | | |
 | Fuzz/invariant tests | | | |
-| Static analysis | | | |
+| Static analysis | `npx tsc --noEmit` on the Day 4 string-in-number variant | TS2322, exit 2 | `node` never checks types; the checker has to be run on purpose |
 | UI/API end-to-end | | | |
 | Manual failure scenario | | | |
 
